@@ -139,6 +139,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
                 return true;
+
+                //Test Push
             }
             return true;
         }
