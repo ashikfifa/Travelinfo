@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme_sylhet" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+
+    <style name="Theme_dhaka" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow_dark</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+
+
+    <style name="Theme_rangamati" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/lime_dark</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+
+
+    <style name="Theme_ponchogar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/GREEN</item>
+        <item name="colorPrimaryDark">@color/GREEN_DARK</item>
+        <item name="colorAccent">@color/GREEN</item>
+    </style>
+
+
+
+    <style name="Theme_coxsbazar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/BLUE</item>
+        <item name="colorPrimaryDark">@color/BLUE_DARK</item>
+        <item name="colorAccent">@color/BLUE</item>
+    </style>
+
+
+    <style name="Theme_khulna" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/VIOLET</item>
+        <item name="colorPrimaryDark">@color/VIOLET_DARK</item>
+        <item name="colorAccent">@color/VIOLET</item>
+    </style>
+
+
+    <style name="Theme_bandarban" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/DARKBLUE</item>
+        <item name="colorPrimaryDark">@color/DARKBLUE_DARK</item>
+        <item name="colorAccent">@color/DARKBLUE</item>
+    </style>
+
+
+    <style name="Theme_barisal" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/DARKVIOLET</item>
+        <item name="colorPrimaryDark">@color/DARKVIOLET_DARK</item>
+        <item name="colorAccent">@color/DARKVIOLET</item>
+    </style>
+
+</resources>

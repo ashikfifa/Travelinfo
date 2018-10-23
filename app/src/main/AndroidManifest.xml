@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intelcorei5.travelinfo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Travel Info"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity android:name=".Active_app" />
+        <activity
+            android:name=".activity_dhaka"
+            android:theme="@style/Theme_dhaka" />
+        <activity
+            android:name=".activity_sylhet"
+            android:theme="@style/Theme_sylhet" />
+        <activity
+            android:name=".activity_rangamati"
+            android:theme="@style/Theme_rangamati" />
+        <activity
+            android:name=".activity_khulna"
+            android:theme="@style/Theme_khulna" />
+        <activity
+            android:name=".activity_barisal"
+            android:theme="@style/Theme_barisal" />
+        <activity
+            android:name=".activity_ponchogar"
+            android:theme="@style/Theme_ponchogar" />
+        <activity
+            android:name=".activity_coxsbazar"
+            android:theme="@style/Theme_coxsbazar" />
+        <activity
+            android:name=".activity_bandarban"
+            android:theme="@style/Theme_bandarban" />
+        <activity android:name=".activity_keokradong" />
+        <activity android:name=".activity_sajek" />
+        <activity android:name=".activity_nilgiri" />
+        <activity android:name=".MyWeatherApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_location" />
+        <activity android:name=".activity_sajekhotel" />
+        <activity android:name=".activity_sajekrestaurants" />
+        <activity android:name=".activity_sajekshop" />
+        <activity android:name=".activity_sajekabt" />
+        <activity android:name=".activity_app" />
+        <activity android:name=".activity_maps2" />
+        <activity android:name=".activity_sangu" />
+        <activity android:name=".activity_sanguabt" />
+        <activity android:name=".activity_sanguhotel" />
+        <activity android:name=".activity_sangurestaurants" />
+        <activity android:name=".activity_sangushop" />
+        <activity android:name=".activity_sanguguide" />
+        <activity android:name=".activity_keokradongabt" />
+        <activity android:name=".activity_keokradonghotel" />
+        <activity android:name=".activity_keokradongshop" />
+        <activity android:name=".activity_keokradongrestaurants" />
+        <activity android:name=".activity_keokradongguide" />
+        <activity android:name=".activity_guliakhali" />
+        <activity android:name=".activity_chandranath" />
+        <activity android:name=".activity_coxbazar" />
+        <activity android:name=".activity_saint" />
+        <activity android:name=".activity_chandranathabt" />
+        <activity android:name=".activity_chandranathguide" />
+        <activity android:name=".activity_chandranathhotel" />
+        <activity android:name=".activity_chandranathrestaurants" />
+        <activity android:name=".activity_chandranathshop" />
+        <activity android:name=".activity_currency"></activity>
+    </application>
+
+</manifest>
